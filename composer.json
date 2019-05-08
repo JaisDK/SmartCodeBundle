@@ -28,7 +28,10 @@
     },
 
     "autoload": {
-        "psr-0": { "Intracto\\SmartCodeBundle": "" }
+        "psr-4": {
+            "Intracto\\SmartCodeBundle\\": "./src",
+            "Intracto\\SmartCodeBundle\\Tests\\": "./tests"
+        }
     },
 
     "target-dir": "Intracto/SmartCodeBundle"
