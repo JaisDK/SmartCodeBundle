@@ -15,8 +15,8 @@
     "require": {
         "php":                             ">=5.3.9",        
         "doctrine/orm":                    "~2.2",
-        "symfony/framework-bundle":        "~2.3",
-        "symfony/validator":               "~2.3"
+        "symfony/framework-bundle":        "~4.0",
+        "symfony/validator":               "~4.0"
     },
 
     "config": {
