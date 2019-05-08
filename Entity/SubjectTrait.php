@@ -3,8 +3,6 @@
 namespace Intracto\SmartCodeBundle\Entity;
 
 use Doctrine\Common\Collections\Collection;
-use Intracto\SmartCodeBundle\Entity\PayloadInterface;
-use Intracto\SmartCodeBundle\Entity\SmartCodeInterface;
 
 trait SubjectTrait
 {
