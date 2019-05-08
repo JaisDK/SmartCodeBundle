@@ -20,12 +20,7 @@ class SmartCodeAction implements SmartCodeActionInterface
     }
 
     /**
-     * Registers the smartCode to its subject.
-     *
-     * @param SubjectInterface   $subject
-     * @param SmartCodeInterface $smartCode
-     *
-     * @return mixed
+     * {@inheritdoc}
      */
     public function register(SubjectInterface $subject, SmartCodeInterface $smartCode)
     {
@@ -41,12 +36,7 @@ class SmartCodeAction implements SmartCodeActionInterface
     }
 
     /**
-     * Unregisters the smartCode from its subject.
-     *
-     * @param SubjectInterface   $subject
-     * @param SmartCodeInterface $smartCode
-     *
-     * @return mixed
+     * {@inheritdoc}
      */
     public function unregister(SubjectInterface $subject, SmartCodeInterface $smartCode)
     {

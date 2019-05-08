@@ -2,12 +2,15 @@
 
 namespace Intracto\SmartCodeBundle\Tests\Generator;
 
+use Intracto\SmartCodeBundle\Entity\PayloadInterface;
 use Intracto\SmartCodeBundle\Generator\SmartCodeGenerator;
+use Intracto\SmartCodeBundle\Generator\SmartCodeGeneratorInterface;
 use Intracto\SmartCodeBundle\Generator\SmartCodeOptions;
 use Intracto\SmartCodeBundle\Tests\BaseTest;
 
 class SmartCodeGeneratorTest extends BaseTest
 {
+    /** @var SmartCodeGeneratorInterface */
     private $generator;
 
     public function setUp()
@@ -30,6 +33,7 @@ class SmartCodeGeneratorTest extends BaseTest
 
     public function testGenerate()
     {
+        /** @var PayloadInterface $payload */
         $payload = $this->getMock('Intracto\SmartCodeBundle\Entity\PayloadInterface');
 
         $options = new SmartCodeOptions();
