@@ -32,7 +32,5 @@
             "Intracto\\SmartCodeBundle\\": "./src",
             "Intracto\\SmartCodeBundle\\Tests\\": "./tests"
         }
-    },
-
-    "target-dir": "Intracto/SmartCodeBundle"
+    }
 }
