@@ -1,7 +1,7 @@
 {
     "name": "intracto/smartcode-bundle",
     "type": "symfony-bundle",
-    "description": "This bundle provides a way to generate software licenses with Symfony2",
+    "description": "This bundle provides a way to generate software licenses with Symfony",
     "keywords": ["software", "licenses", "generate"],
     "homepage": "https://github.com/intracto",
     "license": "MIT",

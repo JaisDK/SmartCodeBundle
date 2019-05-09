@@ -7,12 +7,6 @@ use Doctrine\Common\Collections\Collection;
 trait SubjectTrait
 {
     /**
-     * @ORM\ManyToMany(targetEntity="Intracto\SmartCodeBundle\Entity\SmartCodeInterface", inversedBy="subjects")
-     * @ORM\JoinTable(name="user_smartcode",
-     *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
-     *      inverseJoinColumns={@ORM\JoinColumn(name="smartcode_id", referencedColumnName="id")}
-     *      )
-     *
      * @var Collection|SmartCodeInterface[]
      */
     protected $smartCodes;
