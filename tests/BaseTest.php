@@ -1,6 +1,6 @@
 <?php
 
-namespace Intracto\SmartCodeBundle\Tests;
+namespace Intracto\SmartCodeBundle\tests;
 
 /**
  * Test case class helpful with Entity tests requiring the database interaction.

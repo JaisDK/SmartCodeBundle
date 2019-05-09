@@ -1,9 +1,9 @@
 <?php
 
-namespace Intracto\SmartCodeBundle\Tests\Generator;
+namespace Intracto\SmartCodeBundle\tests\Generator;
 
 use Intracto\SmartCodeBundle\Generator\SmartCodeOptions;
-use Intracto\SmartCodeBundle\Tests\BaseTest;
+use Intracto\SmartCodeBundle\tests\BaseTest;
 use Symfony\Component\Validator\Validation;
 
 class SmartCodeOptionsTest extends BaseTest

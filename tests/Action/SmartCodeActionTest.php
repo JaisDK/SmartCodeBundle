@@ -1,6 +1,6 @@
 <?php
 
-namespace Intracto\SmartCodeBundle\Tests\Generator;
+namespace Intracto\SmartCodeBundle\tests\Generator;
 
 use Intracto\SmartCodeBundle\Action\SmartCodeAction;
 use Intracto\SmartCodeBundle\Action\SmartCodeActionInterface;
@@ -10,7 +10,7 @@ use Intracto\SmartCodeBundle\Entity\SubjectInterface;
 use Intracto\SmartCodeBundle\Generator\SmartCodeGenerator;
 use Intracto\SmartCodeBundle\Generator\SmartCodeGeneratorInterface;
 use Intracto\SmartCodeBundle\Generator\SmartCodeOptions;
-use Intracto\SmartCodeBundle\Tests\BaseTest;
+use Intracto\SmartCodeBundle\tests\BaseTest;
 
 class SmartCodeActionTest extends BaseTest
 {
