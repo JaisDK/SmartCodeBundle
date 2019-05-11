@@ -49,6 +49,18 @@ trait SubjectTrait
     }
 
     /**
+     * Add SmartCodes.
+     *
+     * @param SmartCodeInterface[] $smartCodes
+     */
+    public function addSmartCodes(array $smartCodes)
+    {
+        foreach ($smartCodes as $smartCode) {
+            $this->addSmartCode($smartCode);
+        }
+    }
+
+    /**
      * Remove SmartCode.
      *
      * @param SmartCodeInterface $smartCode

@@ -32,6 +32,13 @@ interface SubjectInterface
     public function addSmartCode(SmartCodeInterface $smartCode);
 
     /**
+     * Add SmartCodes.
+     *
+     * @param SmartCodeInterface[] $smartCodes
+     */
+    public function addSmartCodes(array $smartCodes);
+
+    /**
      * Remove SmartCode.
      *
      * @param SmartCodeInterface $smartCode

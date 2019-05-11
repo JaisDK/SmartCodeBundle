@@ -5,3 +5,6 @@ services:
     smartcode.action.smartcode:
         class: Intracto\SmartCodeBundle\Action\SmartCodeAction
         arguments: ['@doctrine.orm.entity_manager']
+
+Intracto\SmartCodeBundle\Generator\SmartCodeGenerator: '@smartcode.generator.payload_smartcode'
+Intracto\SmartCodeBundle\Action\SmartCodeAction: '@smartcode.action.smartcode'
