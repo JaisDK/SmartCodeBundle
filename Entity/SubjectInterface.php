@@ -2,6 +2,8 @@
 
 namespace Intracto\SmartCodeBundle\Entity;
 
+use Doctrine\Common\Collections\Collection;
+
 interface SubjectInterface
 {
     /**

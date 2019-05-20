@@ -59,7 +59,7 @@ Smart codes have to be bound to a payload this can be done by implementing the P
         /**
          * @ORM\OneToMany(targetEntity="Intracto\SmartCodeBundle\Entity\SmartCodeInterface", mappedBy="payload")
          *
-         * @var SmartCodes[]|ArrayCollection
+         * @var SmartCode[]|ArrayCollection
          */
         protected $smartCodes;
         

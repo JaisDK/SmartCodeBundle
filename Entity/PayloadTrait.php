@@ -7,7 +7,9 @@ use Doctrine\Common\Collections\Collection;
 trait PayloadTrait
 {
     /**
-     * @var Collection|SmartCodeInterface[]
+     * @ORM\OneToMany(targetEntity="Intracto\SmartCodeBundle\Entity\SmartCodeInterface", mappedBy="payload")
+     *
+     * @var SmartCode[]|Collection
      */
     protected $smartCodes;
 

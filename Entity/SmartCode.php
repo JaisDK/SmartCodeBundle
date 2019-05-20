@@ -51,7 +51,7 @@ class SmartCode implements SmartCodeInterface
     /**
      * Associated payload.
      *
-     * @ORM\ManyToOne(targetEntity="PayloadInterface", inversedBy="smartCodes")
+     * @ORM\ManyToOne(targetEntity="PayloadInterface", inversedBy="smartCodes", cascade={"persist"})
      * @ORM\JoinColumn(name="payload_id", referencedColumnName="id")
      *
      * @var PayloadInterface
@@ -97,7 +97,7 @@ class SmartCode implements SmartCodeInterface
      **/
     protected $subjects;
 
-    public function __construct(PayloadInterface $payload)
+    public function __construct(PayloadInterface $payload = null)
     {
         $this->payload = $payload;
     }
